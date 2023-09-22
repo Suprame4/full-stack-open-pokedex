@@ -12,14 +12,10 @@ jobs:
       - name: Say hello
         run: |
           echo "Hello World!"
-
-  show_date_job:
     steps:
       - name: Current date 
         run: |
           echo date
-
-  show_dir_job:
     steps:
       - name: Current dir
         run: | 
